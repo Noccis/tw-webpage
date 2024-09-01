@@ -1,6 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 0.9rem;
+
+}
+
+h4 {
+  margin: 0;
+  font-weight: 200;
+  color: white;
+ }
+
+ h1 {
+  color: white;
+ }
+
+ a {
+  color: white;
+  text-decoration: none;
+ }
+
+ a:hover {
+  color: #D7A6FF;
+ }
+
+ #title {
+  font-size: 1.2rem;
+ }
+
+ main {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+ }
+
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-weight: 200;
 }
