@@ -26,30 +26,34 @@ h4 {
   margin: 0;
   font-weight: 200;
   color: white;
- }
+}
 
- h1 {
+h1 {
   color: white;
- }
+}
 
- a {
+a {
   color: white;
   text-decoration: none;
- }
+}
 
- a:hover {
+a:hover {
   color: #D7A6FF;
- }
+}
 
- #title {
+#title {
   font-size: 1.2rem;
- }
+}
 
- main {
+main {
   display: flex;
   justify-content: center;
   padding-top: 70px;
- }
+}
+
+ul {
+  list-style-type: none;
+}
 
 .azeret-mono {
   font-family: "Azeret Mono", monospace;
