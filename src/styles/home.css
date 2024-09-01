@@ -1,0 +1,37 @@
+#home-container {
+    display: flex;
+    justify-content: center;
+}
+#portrait {
+    width: 400px;
+}
+
+#home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 280px;
+}
+
+#home-text h1, #home-text p {
+    margin: 0;
+    text-align: start;
+}
+
+#data-styled-text {
+    font-size: 0.8;
+}
+
+#contact-button{
+    margin-top: 20px;
+    background-color: black;
+    color: #D7A6FF;
+    width: 130px;
+    height: 40px;
+    border: 2px solid #D7A6FF;
+    border-radius: 5px;
+}
+
+.grey-text {
+    color: grey;
+}
