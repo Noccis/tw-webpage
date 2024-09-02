@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Home = () => {
   const [typedWords] = useTypewriter({
-    words: ['Och jag är en kreativ utvecklare',]
+    words: ['Och jag är en kreativ utvecklare.',]
   })
 
   return (
@@ -16,9 +16,13 @@ const Home = () => {
       <div id="home-text">
         <p className="data-styled-text">Hej jag heter</p>
         <h1>Toni Wincent</h1>
-        <p className="grey-text">
-          {typedWords}
-        </p>
+        <div id='typewriter-container'>
+          <p className="grey-text">
+            {typedWords}
+          </p>
+          <Cursor cursorColor='white' />
+        </div>
+        
         <ul id="contact-info">
           <li>
             <p><a href="https://www.linkedin.com/in/toni-lof/" target="_blank"><FaLinkedin size={30} /></a></p>
