@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Sample Title 1",
+        "description": "This is a description for the sample object 1.",
+        "image_url": "../images/doggyPhone.jpg",
+        "tags": [
+            "tag1a",
+            "tag1b",
+            "tag1c"
+        ]
+    },
+    {
+        "title": "Sample Title 2",
+        "description": "This is a description for the sample object 2.",
+        "image_url": "../images/doggyPhone.jpg",
+        "tags": [
+            "tag2a",
+            "tag2b",
+            "tag2c"
+        ]
+    },
+    {
+        "title": "Sample Title 3",
+        "description": "This is a description for the sample object 3.",
+        "image_url": "../images/doggyPhone.jpg",
+        "tags": [
+            "tag3a",
+            "tag3b",
+            "tag3c"
+        ]
+    },
+    {
+        "title": "Sample Title 4",
+        "description": "This is a description for the sample object 4.",
+        "image_url": "../images/doggyPhone.jpg",
+        "tags": [
+            "tag4a",
+            "tag4b",
+            "tag4c"
+        ]
+    }
+]

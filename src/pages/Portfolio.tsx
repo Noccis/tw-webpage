@@ -1,14 +1,24 @@
 import React from 'react'
-import ProjectItem from '../components/ProjectItem'
+import data from '../local-json/projects.json'
+import '../styles/portfolio.css'
 
 const Portfolio = () => {
+  let listOfProjects = null;
+
+  if (data != null) {
+    listOfProjects = data.map(project => (
+      <div key={project.title} id='project-container'>
+        <h1>{project.title}</h1>
+        <p>{project.description}</p>
+        <img className='project-image' src={project.image_url}/>
+      </div>
+    )
+    )
+
+  }
   return (
-    <div>
-      <p>Portfolio</p>
-      <ProjectItem 
-        title='Här va en titel'
-        description='Här är en beskrivning av någonting'
-      />
+    <div id='portfolio-container'>
+      {listOfProjects}
     </div>
   )
 }
