@@ -1,0 +1,48 @@
+[
+    {
+        "title": "Klämdagen app",
+        "description": "Bröstcancerfondens app som påminner kvinnor att undersöka sina bröst regelbunden efter knölar. I appen kan man ställa in språk, se en visuell guide hur man undersöker samt ställa in en påminnelse för det datum och tid man vill utföra undersökningen.",
+        "image_url": "../images/klamdagenPhone.jpg",
+        "tags": [
+            "Android",
+            "Kotlin",
+            "Jetpack Compose"
+        ]
+    },
+    {
+        "title": "Bildschema",
+        "description": "Ett digitalt bildstöd för barn och unga med NPF (Neuropsykiatriska funktionsnedsättningar). Appen underlättar vardagen för familjen med NPF genom att visuellt förebereda personer som har svårt med föreställningsförmågan.",
+        "image_url": "../images/bildshemaPhone.jpg",
+        "tags": [
+            "Android",
+            "Kotlin",
+            "Jetpack Compose",
+            "Firebase"
+        ]
+    },
+    {
+        "title": "Doggy daycare",
+        "description": "Eget skolprojekt där vi skulle bygga en hemsida för ett hunddagis. Hemsidan skulle vara responsiv och använda sig av ett exempel API med information och bilder av hundar.",
+        "image_url": "../images/doggyPhone.jpg",
+        "tags": [
+            "React",
+            "Javascript",
+            "Css",
+            "Html"
+        ]
+    },
+    {
+        "title": "Noccis app",
+        "description": "Mitt eget projekt. En webbapp som främjar psykisk hälsa och medvetenhet. Webbappen bestod av olika delar som tacksamhets journal, veckans citat och även inspirerande videos.",
+        "image_url": "../images/noccisPhone.jpg",
+        "tags": [
+            "React",
+            "Javascript",
+            "Css",
+            "Html",
+            "Routes",
+            "Secure Routes",
+            "Firebase"
+        ]
+    }
+]
