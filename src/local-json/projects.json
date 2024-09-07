@@ -1,42 +1,48 @@
 [
     {
-        "title": "Sample Title 1",
-        "description": "This is a description for the sample object 1.",
-        "image_url": "../images/doggyPhone.jpg",
+        "title": "Klämdagen app",
+        "description": "Bröstcancerfondens app som påminner kvinnor att undersöka sina bröst regelbunden efter knölar. I appen kan man ställa in språk, se en visuell guide hur man undersöker samt ställa in en påminnelse för det datum och tid man vill utföra undersökningen.",
+        "image_url": "../images/klamdagenPhone.jpg",
         "tags": [
-            "tag1a",
-            "tag1b",
-            "tag1c"
+            "Android",
+            "Kotlin",
+            "Jetpack Compose"
         ]
     },
     {
-        "title": "Sample Title 2",
-        "description": "This is a description for the sample object 2.",
-        "image_url": "../images/doggyPhone.jpg",
+        "title": "Bildschema",
+        "description": "Ett digitalt bildstöd för barn och unga med NPF (Neuropsykiatriska funktionsnedsättningar). Appen underlättar vardagen för familjen med NPF genom att visuellt förebereda personer som har svårt med föreställningsförmågan.",
+        "image_url": "../images/bildshemaPhone.jpg",
         "tags": [
-            "tag2a",
-            "tag2b",
-            "tag2c"
+            "Android",
+            "Kotlin",
+            "Jetpack Compose",
+            "Firebase"
         ]
     },
     {
-        "title": "Sample Title 3",
-        "description": "This is a description for the sample object 3.",
+        "title": "Doggy daycare",
+        "description": "Ett skolprojekt där vi skulle bygga en hemsida för ett hunddagis. Hemsidan skulle vara responsiv och använda sig av ett exempel API med information och bilder av hundar.",
         "image_url": "../images/doggyPhone.jpg",
         "tags": [
-            "tag3a",
-            "tag3b",
-            "tag3c"
+            "React",
+            "Javascript",
+            "Css",
+            "Html"
         ]
     },
     {
-        "title": "Sample Title 4",
-        "description": "This is a description for the sample object 4.",
-        "image_url": "../images/doggyPhone.jpg",
+        "title": "Noccis app",
+        "description": "En webbapp som främjar psykisk hälsa och medvetenhet. Webbappen bestod av olika delar som tacksamhets journal, veckans citat och även inspirerande videos.",
+        "image_url": "../images/noccisPhone.jpg",
         "tags": [
-            "tag4a",
-            "tag4b",
-            "tag4c"
+            "React",
+            "Javascript",
+            "Css",
+            "Html",
+            "Routes",
+            "Secure Routes",
+            "Firebase"
         ]
     }
 ]

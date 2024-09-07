@@ -1,17 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  text-align: center;
-  height: 100vh;
-  background-color: black;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-}
-
 header {
-  height: 100px;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,6 +17,8 @@ h4 {
 }
 
 h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
   color: white;
 }
 
