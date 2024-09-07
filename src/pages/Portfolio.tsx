@@ -27,8 +27,12 @@ const Portfolio = () => {
 
   return (
     <div id='portfolio-container'>
-      {listOfProjects}
+      <h2>Projekt som jag varit med och jobbat i:</h2>
+      <div id='projects-container'>
+        {listOfProjects}
+      </div>
     </div>
+    
   )
 }
 

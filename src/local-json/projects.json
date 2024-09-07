@@ -22,7 +22,7 @@
     },
     {
         "title": "Doggy daycare",
-        "description": "Ett skolprojekt där vi skulle bygga en hemsida för ett hunddagis. Hemsidan skulle vara responsiv och använda sig av ett exempel API med information och bilder av hundar.",
+        "description": "Eget skolprojekt där vi skulle bygga en hemsida för ett hunddagis. Hemsidan skulle vara responsiv och använda sig av ett exempel API med information och bilder av hundar.",
         "image_url": "../images/doggyPhone.jpg",
         "tags": [
             "React",
@@ -33,7 +33,7 @@
     },
     {
         "title": "Noccis app",
-        "description": "En webbapp som främjar psykisk hälsa och medvetenhet. Webbappen bestod av olika delar som tacksamhets journal, veckans citat och även inspirerande videos.",
+        "description": "Mitt eget projekt. En webbapp som främjar psykisk hälsa och medvetenhet. Webbappen bestod av olika delar som tacksamhets journal, veckans citat och även inspirerande videos.",
         "image_url": "../images/noccisPhone.jpg",
         "tags": [
             "React",
