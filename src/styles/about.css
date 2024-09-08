@@ -1,0 +1,39 @@
+#about-container {
+    padding: 0em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+
+#about-container h3 {
+    font-family: "Azeret Mono";
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.about-section {
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-two {
+    flex-direction: row-reverse;
+    margin-top: 2%;
+}
+
+#about-container img {
+    width: 30%;
+    border: 0.5rem solid white;
+}
+
+.section-text {
+    background-color: rgba(215, 166, 255, 0.15);
+    border-radius: 15px;
+    padding: 3%;
+    max-width: 700px;
+    width: 60%;
+    font-family: "Azeret Mono";
+    font-weight: 100;
+}
