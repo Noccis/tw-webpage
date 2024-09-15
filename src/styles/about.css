@@ -15,7 +15,7 @@
 .about-section {
     margin: 1%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #section-two {
