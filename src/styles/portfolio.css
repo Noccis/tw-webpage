@@ -11,15 +11,6 @@
     align-items: center;
 }
 
-.project-image {
-    width: 300px;
-    border-radius: 5px;
-}
-
-.image-left {
-    flex-direction: row-reverse;
-}
-
 #project-item {
     display: flex;
     padding: 2%;
@@ -33,8 +24,7 @@
 #project-text {
     display: flex;
     flex-direction: column;
-    margin-right: 2%;
-    width: 60%;
+    width: 70%;
 }
 
 #project-text h2 {
@@ -46,9 +36,32 @@
 }
 
 #tag-container {
-    display: flex;
-    flex-direction: row;
     align-self:center;
     width: 100%;
-    justify-content: space-evenly;
+    padding: 5px;
+}
+
+#tag-container p {
+    background-color: rgba(57, 69, 222, 0.3);
+    margin-right: 10px;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.margin-right {
+    margin-right: 2%;
+}
+
+.margin-left {
+    margin-left: 2%;
+}
+
+.project-image {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.image-left {
+    flex-direction: row-reverse;
 }
