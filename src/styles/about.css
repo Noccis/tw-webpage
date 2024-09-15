@@ -15,7 +15,7 @@
 .about-section {
     margin: 1%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #section-two {
@@ -25,15 +25,13 @@
 
 #about-container img {
     width: 30%;
-    border: 0.5rem solid white;
 }
 
 .section-text {
     background-color: rgba(215, 166, 255, 0.15);
-    border-radius: 15px;
     padding: 3%;
     max-width: 700px;
-    width: 60%;
+    width: 70%;
     font-family: "Azeret Mono";
     font-weight: 100;
 }
