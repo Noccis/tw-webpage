@@ -5,9 +5,11 @@ import '../styles/portfolio.css'
 const Portfolio = () => {
   let listOfProjects = null;
 
+  const className = ['image-right', 'image-left'] 
+
   if (data != null) {
     listOfProjects = data.map((project, index) => (
-      <div key={index} id='project-item'>
+      <div key={index} id='project-item' className={className[index % 2]}>
         <div id='project-text'>
           <h2>{project.title}</h2>
           <p>{project.description}</p>

@@ -16,6 +16,10 @@
     border-radius: 5px;
 }
 
+.image-left {
+    flex-direction: row-reverse;
+}
+
 #project-item {
     display: flex;
     padding: 2%;
