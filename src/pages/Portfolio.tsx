@@ -6,11 +6,12 @@ const Portfolio = () => {
   let listOfProjects = null;
 
   const className = ['image-right', 'image-left'] 
+  const marginClasses = ['margin-right', 'margin-left']
 
   if (data != null) {
     listOfProjects = data.map((project, index) => (
       <div key={index} id='project-item' className={className[index % 2]}>
-        <div id='project-text'>
+        <div id='project-text' className={marginClasses[index % 2]}>
           <h2>{project.title}</h2>
           <p>{project.description}</p>
           <div id='tag-container'>
