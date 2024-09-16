@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio'
 import Art from './pages/Art'
 import { Routes, Route } from 'react-router-dom'
 import Menu from './components/Menu'
+import LanguageHandler from './components/LanguageHandler'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <>
       <header>
         <h4 id='title'>Toni Wincent</h4>
+        <LanguageHandler />
         <Menu />
       </header>
       <main>
