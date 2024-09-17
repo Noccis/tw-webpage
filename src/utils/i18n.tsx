@@ -7,12 +7,14 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      hello: 'Hello my name is'
+      hello: 'Hello my name is',
+      iAm: 'And I am a creative developer.'
     }
   },
   sv: {
     translation: {
-        hello: 'Hej jag heter'
+        hello: 'Hej jag heter',
+        iAm: 'Och jag är en kreativ utvecklare.'
     }
   }
 };

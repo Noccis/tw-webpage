@@ -12,7 +12,7 @@ const Home = () => {
   const { t } = useTranslation();
 
   const [typedWords] = useTypewriter({
-    words: ['Och jag är en kreativ utvecklare.',]
+    words: [t('iAm'),]
   })
 
   return (
