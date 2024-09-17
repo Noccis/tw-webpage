@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/home.css'
 import portrait from "../assets/profileColor1.png"
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
@@ -9,6 +9,9 @@ import { useTranslation } from 'react-i18next';
 
 const Home = () => {
 
+  /*
+  https://blog.logrocket.com/how-when-to-force-react-component-re-render/
+  */
   const { t } = useTranslation();
 
   const [typedWords] = useTypewriter({
