@@ -2,12 +2,19 @@ import React, { useState } from 'react'
 import i18next from 'i18next';
 import { MdLanguage } from "react-icons/md";
 
-const LanguageHandler = () => {
+type LanguageHandlerProps = {
+    language: string,
+    setLanguage: (language: string) => void
+};
 
+const LanguageHandler = ({language, setLanguage} : LanguageHandlerProps) => {
+    console.log("Language handler rendering!");
+
+    // Gör om så att komponenten tar in vilket språk den ska välja (samt vad som ska stå) och se till att det är en state i parent.
     const en = 'English please';
     const sv = 'Svenska tack';
 
-    const [language, setLanguage] = useState(en)
+    //const [language, setLanguage] = useState(en)
 
 
     return (
@@ -22,6 +29,7 @@ const LanguageHandler = () => {
                     i18next.changeLanguage('sv');
                     setLanguage(en)
                 }
+                console.log("KLick klick!!!");
             }}  >{language}</button>
         </div>
     )

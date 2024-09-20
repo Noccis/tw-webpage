@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/home.css'
 import portrait from "../assets/profileColor1.png"
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
@@ -6,13 +6,15 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaGithub } from "react-icons/fa6";
 import { useTranslation } from 'react-i18next';
+import LanguageHandler from '../components/LanguageHandler';
 
 const Home = () => {
 
-  /*
-  https://blog.logrocket.com/how-when-to-force-react-component-re-render/
-  */
+  console.log("Home rendering!");
+
   const { t } = useTranslation();
+
+  const [language, setLanguage] = useState('English please');
 
   const [typedWords] = useTypewriter({
     words: [t('iAm'),]
@@ -20,6 +22,7 @@ const Home = () => {
 
   return (
     <div id="home-container">
+      <LanguageHandler language={language} setLanguage={setLanguage}/>
       <div id="home-text">
         <p className="data-styled-text">{t('hello')}</p>
         <h1>Toni Wincent</h1>
