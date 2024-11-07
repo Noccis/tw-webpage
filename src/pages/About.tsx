@@ -11,7 +11,7 @@ const About = () => {
         <img src= {toni}/>
         <div className='section-text'>
           <h3>Det är jag som är Toni.</h3>
-          <p>Att skriva presentationer kanske inte är min starka sida, men jag bor i ett litet hus med min fantastiska son. Vi älskar att hänga i trädgården, hoppa studsmatta, ha vattenkrig eller odla grönsaker tillsammans.</p>
+          <p>Att skriva presentationer kanske inte är min starka sida, men jang bor i ett litet hus med min fantastiska son. Vi älskar att hänga i trädgården, hoppa studsmatta, ha vattenkrig eller odla grönsaker tillsammans.</p>
           <p>Min kärlek till naturen och djur gör att jag gärna tar mig ut i skogen när jag behöver hämta energi. Att måla är ett annat sätt för mig att varva ner.</p>     
         </div>
       </div>
