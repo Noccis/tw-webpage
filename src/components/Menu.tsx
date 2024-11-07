@@ -5,10 +5,9 @@ import '../styles/menu.css'
 const Menu = () => {
   return (
     <div id='menu'>       
-        <NavLink to="/">Home</NavLink>               
-        <NavLink to="/about">About</NavLink>      
-        <NavLink to="/portfolio">Portfolio</NavLink>      
-        <NavLink to="/art">Art</NavLink>       
+        <NavLink to="/">Hem</NavLink>               
+        <NavLink to="/about">Om mig</NavLink>      
+        <NavLink to="/portfolio">Portfolio</NavLink>         
     </div>
   )
 }
